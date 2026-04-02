@@ -858,7 +858,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')document.get
       <div class="mbox-plain">
         <div class="mbox-icon" style="background:var(--coral-soft)">✉</div>
         <div>
-          <div class="mbox-label"><a href="disharavi286@gmail.com" target="_blank"></a></div>
+          <div><div class="mbox-label">Mail Me</div><div class="mbox-meta"></div></div>
           <div class="mbox-meta" id="copy-msg">Click Copy to grab address</div>
         </div>
         <button id="copy-btn" onclick="navigator.clipboard.writeText('disharavi286@gmail.com');document.getElementById('copy-msg').textContent='Copied!';this.textContent='✓';this.style.background='var(--lime)';var b=this,m=document.getElementById('copy-msg');setTimeout(function(){b.textContent='Copy';b.style.background='var(--cream-dark)';m.textContent='Click Copy to grab address'},2000)" style="margin-left:auto;font-size:11px;font-weight:700;background:var(--cream-dark);color:var(--ink);border:none;border-radius:20px;padding:5px 12px;cursor:none;transition:background .2s,color .2s;flex-shrink:0">Copy</button>
